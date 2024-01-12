@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="busca">
+            <input type="text" placeholder="Nome da cidade" spellcheck="false">
+            <button><img src="img/search.png"></button>
+        </div>
+        <div class="erro">
+            <p>Nome de Cidade Inválida</p>
+        </div>
+        <div class="clima">
+            <img src="img/rain.png" class="icone-clima">
+            <h1 class="temp">°C</h1>
+            <h2 class="cidade"></h2>
+            <div class="detalhes">
+                <div class="col">
+                    <img src="img/humidity.png">
+                    <div>
+                        <p class="humidade">%</p>
+                        <p>Humidade</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/wind.png">
+                    <div>
+                        <p class="vento">km/h</p>
+                        <p>Velocidade do Vento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
