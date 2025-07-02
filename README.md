@@ -1,1 +1,1 @@
-App de Clima feito em javascript
+App de Clima feito em javascript usando api open weather
